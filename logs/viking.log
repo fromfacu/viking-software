@@ -1,0 +1,195 @@
+2026-10-08 19:11:57,550 [INFO] viking: Arranque de Viking Software BETA 0.5.0-beta
+2026-10-08 19:11:59,673 [INFO] viking: ComboAutocompletable ignora opciones del ComboBox: button_color, dropdown_fg_color, dropdown_font, dropdown_text_color
+2026-10-08 19:12:03,148 [INFO] viking: Tema de la interfaz: claro
+2026-10-08 19:12:03,332 [INFO] viking: ComboAutocompletable ignora opciones del ComboBox: button_color, dropdown_fg_color, dropdown_font, dropdown_text_color
+2026-10-08 19:12:06,115 [INFO] viking: Tema de la interfaz: oscuro
+2026-10-08 19:12:06,298 [INFO] viking: ComboAutocompletable ignora opciones del ComboBox: button_color, dropdown_fg_color, dropdown_font, dropdown_text_color
+2026-10-08 19:15:14,798 [INFO] viking: Tema de la interfaz: claro
+2026-10-08 19:15:14,968 [INFO] viking: ComboAutocompletable ignora opciones del ComboBox: button_color, dropdown_fg_color, dropdown_font, dropdown_text_color
+2026-10-08 19:15:36,370 [INFO] viking: Cierre de Viking Software BETA
+2026-10-08 19:16:01,269 [INFO] viking: Arranque de Viking Software BETA 0.5.0-beta
+2026-10-08 19:16:01,862 [INFO] viking: ComboAutocompletable ignora opciones del ComboBox: button_color, dropdown_fg_color, dropdown_font, dropdown_text_color
+2026-10-08 19:16:12,892 [INFO] viking: Cierre de Viking Software BETA
+2026-10-08 19:18:27,219 [INFO] viking: Arranque de Viking Software BETA 0.5.0-beta
+2026-10-08 19:18:27,820 [INFO] viking: ComboAutocompletable ignora opciones del ComboBox: button_color, dropdown_fg_color, dropdown_font, dropdown_text_color
+2026-10-08 19:19:36,090 [INFO] viking: Venta registrada: Corte + Barba x1 = 11000.00 (barbero_id=1, cliente_id=None, EFECTIVO, bbac711f-7fb9-4ee7-ab54-4b59e1bedfe8)
+2026-10-08 19:19:44,042 [INFO] viking: Reporte exportado: C:\Viking Software BETA\exportaciones\reporte_ventas_2026-10-08_a_2026-10-08.xlsx (1 ventas)
+2026-10-08 19:22:33,864 [INFO] viking: Tema de la interfaz: oscuro
+2026-10-08 19:22:34,024 [INFO] viking: ComboAutocompletable ignora opciones del ComboBox: button_color, dropdown_fg_color, dropdown_font, dropdown_text_color
+2026-10-08 19:30:36,534 [INFO] viking: Cierre de Viking Software BETA
+2026-10-08 19:34:24,883 [INFO] viking: Arranque de Viking Software BETA 0.5.0-beta
+2026-10-08 19:34:25,446 [INFO] viking: ComboAutocompletable ignora opciones del ComboBox: button_color, dropdown_fg_color, dropdown_font, dropdown_text_color
+2026-10-08 19:39:19,290 [INFO] viking: Cierre de Viking Software BETA
+2026-10-08 19:40:13,158 [INFO] viking: Arranque de Viking Software BETA 0.5.0-beta
+2026-10-08 19:40:13,801 [INFO] viking: ComboAutocompletable ignora opciones del ComboBox: button_color, dropdown_fg_color, dropdown_font, dropdown_text_color
+2026-10-08 19:40:57,222 [INFO] viking: Venta registrada: Corte + Barba x1 = 11000.00 (barbero_id=1, cliente_id=None, EFECTIVO, 70449cf9-fe7f-4541-9f76-bfbedee2bf2c)
+2026-10-08 19:41:04,454 [INFO] viking: Venta 2 ELIMINADA desde Administración
+2026-10-08 19:45:07,708 [INFO] viking: Cierre de Viking Software BETA
+2026-10-08 19:45:13,121 [INFO] viking: Arranque de Viking Software BETA 0.5.0-beta
+2026-10-08 19:45:13,869 [INFO] viking: ComboAutocompletable ignora opciones del ComboBox: button_color, dropdown_fg_color, dropdown_font, dropdown_text_color
+2026-10-08 19:47:16,838 [INFO] viking: Adelanto registrado: Juliano recibe 5500.00 (eccc9e1f-4fb0-4afe-a84a-0b5d6ec49418)
+2026-10-08 19:49:37,614 [ERROR] viking: Fallo al exportar reporte_ventas_2026-10-08_a_2026-10-08.xlsx
+Traceback (most recent call last):
+  File "C:\Viking Software BETA\viking\servicios.py", line 683, in exportar
+    wb.save(destino)
+    ~~~~~~~^^^^^^^^^
+  File "C:\Viking Software BETA\venv\Lib\site-packages\openpyxl\workbook\workbook.py", line 386, in save
+    save_workbook(self, filename)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Viking Software BETA\venv\Lib\site-packages\openpyxl\writer\excel.py", line 291, in save_workbook
+    archive = ZipFile(filename, 'w', ZIP_DEFLATED, allowZip64=True)
+  File "C:\Users\Paula Perf\AppData\Local\Programs\Python\Python314\Lib\zipfile\__init__.py", line 1454, in __init__
+    self.fp = io.open(file, filemode)
+              ~~~~~~~^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\Viking Software BETA\\exportaciones\\reporte_ventas_2026-10-08_a_2026-10-08.xlsx'
+2026-10-08 19:49:41,195 [ERROR] viking: Fallo al exportar reporte_ventas_2026-10-08_a_2026-10-08.xlsx
+Traceback (most recent call last):
+  File "C:\Viking Software BETA\viking\servicios.py", line 683, in exportar
+    wb.save(destino)
+    ~~~~~~~^^^^^^^^^
+  File "C:\Viking Software BETA\venv\Lib\site-packages\openpyxl\workbook\workbook.py", line 386, in save
+    save_workbook(self, filename)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Viking Software BETA\venv\Lib\site-packages\openpyxl\writer\excel.py", line 291, in save_workbook
+    archive = ZipFile(filename, 'w', ZIP_DEFLATED, allowZip64=True)
+  File "C:\Users\Paula Perf\AppData\Local\Programs\Python\Python314\Lib\zipfile\__init__.py", line 1454, in __init__
+    self.fp = io.open(file, filemode)
+              ~~~~~~~^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\Viking Software BETA\\exportaciones\\reporte_ventas_2026-10-08_a_2026-10-08.xlsx'
+2026-10-08 19:49:52,070 [INFO] viking: Reporte exportado: C:\Viking Software BETA\exportaciones\reporte_ventas_2026-10-08_a_2026-10-08.xlsx (1 ventas)
+2026-10-08 19:50:39,268 [INFO] viking: Reporte exportado: C:\Viking Software BETA\exportaciones\reporte_ventas_2026-10-08_a_2026-10-08.xlsx (1 ventas)
+2026-10-08 20:06:07,031 [INFO] viking: Tema de la interfaz: claro
+2026-10-08 20:06:07,299 [INFO] viking: ComboAutocompletable ignora opciones del ComboBox: button_color, dropdown_fg_color, dropdown_font, dropdown_text_color
+2026-10-08 20:06:17,502 [INFO] viking: Tema de la interfaz: oscuro
+2026-10-08 20:06:17,676 [INFO] viking: ComboAutocompletable ignora opciones del ComboBox: button_color, dropdown_fg_color, dropdown_font, dropdown_text_color
+2026-10-08 20:06:20,474 [INFO] viking: Tema de la interfaz: claro
+2026-10-08 20:06:20,694 [INFO] viking: ComboAutocompletable ignora opciones del ComboBox: button_color, dropdown_fg_color, dropdown_font, dropdown_text_color
+2026-10-08 20:07:53,923 [INFO] viking: Tema de la interfaz: oscuro
+2026-10-08 20:07:54,120 [INFO] viking: ComboAutocompletable ignora opciones del ComboBox: button_color, dropdown_fg_color, dropdown_font, dropdown_text_color
+2026-10-08 20:10:30,212 [INFO] viking: Tema de la interfaz: claro
+2026-10-08 20:10:30,410 [INFO] viking: ComboAutocompletable ignora opciones del ComboBox: button_color, dropdown_fg_color, dropdown_font, dropdown_text_color
+2026-10-08 20:10:31,635 [INFO] viking: Tema de la interfaz: oscuro
+2026-10-08 20:10:31,832 [INFO] viking: ComboAutocompletable ignora opciones del ComboBox: button_color, dropdown_fg_color, dropdown_font, dropdown_text_color
+2026-10-08 20:18:12,043 [INFO] viking: Gasto registrado: INSUMOS / JABON MERY-J = 10000.00
+2026-10-08 20:18:53,189 [INFO] viking: Gasto registrado: INVERSION / API KIMI - 5 U$D = 10000.00
+2026-10-08 20:19:42,955 [INFO] viking: Ítem de catálogo agregado: DESARROLLO PROGRAMA PARA BARBERIA (SERVICIO)
+2026-10-08 20:19:51,155 [INFO] viking: Moneda del sistema: $
+2026-10-08 20:20:16,445 [INFO] viking: Barbero agregado: FACUNDO (comisión 50.00%)
+2026-10-08 20:21:20,124 [INFO] viking: Venta 1 ELIMINADA desde Administración
+2026-10-08 20:21:51,138 [INFO] viking: Cierre de Viking Software BETA
+2026-10-08 20:21:56,992 [INFO] viking: Arranque de Viking Software BETA 0.5.0-beta
+2026-10-08 20:21:57,638 [INFO] viking: ComboAutocompletable ignora opciones del ComboBox: button_color, dropdown_fg_color, dropdown_font, dropdown_text_color
+2026-10-08 20:26:01,144 [INFO] viking: Clave de administración actualizada
+2026-10-08 20:26:08,100 [INFO] viking: Cierre de Viking Software BETA
+2026-10-08 20:26:10,014 [INFO] viking: Arranque de Viking Software BETA 0.5.0-beta
+2026-10-08 20:26:10,625 [INFO] viking: ComboAutocompletable ignora opciones del ComboBox: button_color, dropdown_fg_color, dropdown_font, dropdown_text_color
+2026-10-08 20:26:36,076 [INFO] viking: Cierre de Viking Software BETA
+2026-10-08 20:29:20,100 [INFO] viking: Arranque de Viking Software BETA 0.5.0-beta
+2026-10-08 20:29:20,730 [INFO] viking: ComboAutocompletable ignora opciones del ComboBox: button_color, dropdown_fg_color, dropdown_font, dropdown_text_color
+2026-10-08 20:29:49,168 [INFO] viking: Tema de la interfaz: claro
+2026-10-08 20:29:49,333 [INFO] viking: ComboAutocompletable ignora opciones del ComboBox: button_color, dropdown_fg_color, dropdown_font, dropdown_text_color
+2026-10-08 20:30:30,402 [INFO] viking: Cierre de Viking Software BETA
+2026-10-08 20:30:31,436 [INFO] viking: Arranque de Viking Software BETA 0.5.0-beta
+2026-10-08 20:30:32,010 [INFO] viking: ComboAutocompletable ignora opciones del ComboBox: button_color, dropdown_fg_color, dropdown_font, dropdown_text_color
+2026-10-08 20:30:36,370 [INFO] viking: Tema de la interfaz: oscuro
+2026-10-08 20:30:36,550 [INFO] viking: ComboAutocompletable ignora opciones del ComboBox: button_color, dropdown_fg_color, dropdown_font, dropdown_text_color
+2026-10-08 20:30:44,270 [INFO] viking: Tema de la interfaz: claro
+2026-10-08 20:30:44,433 [INFO] viking: ComboAutocompletable ignora opciones del ComboBox: button_color, dropdown_fg_color, dropdown_font, dropdown_text_color
+2026-10-08 20:33:09,645 [INFO] viking: Venta registrada: DESARROLLO PROGRAMA PARA BARBERIA x1 = 50000.00 (barbero_id=2, cliente_id=None, TRANSFERENCIA, 1f8efcc2-9852-4389-b05a-c8cfd8a93160)
+2026-10-08 20:33:17,559 [INFO] viking: Reporte exportado: C:\Viking Software BETA\exportaciones\reporte_ventas_2026-10-08_a_2026-10-08.xlsx (1 ventas)
+2026-10-08 20:35:02,351 [INFO] viking: Adelanto 1 ELIMINADO desde Administración
+2026-10-08 20:35:07,005 [INFO] viking: Barbero 1 eliminado
+2026-10-08 20:35:21,526 [ERROR] viking: Fallo al exportar reporte_ventas_2026-10-08_a_2026-10-08.xlsx
+Traceback (most recent call last):
+  File "C:\Viking Software BETA\viking\servicios.py", line 683, in exportar
+    wb.save(destino)
+    ~~~~~~~^^^^^^^^^
+  File "C:\Viking Software BETA\venv\Lib\site-packages\openpyxl\workbook\workbook.py", line 386, in save
+    save_workbook(self, filename)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Viking Software BETA\venv\Lib\site-packages\openpyxl\writer\excel.py", line 291, in save_workbook
+    archive = ZipFile(filename, 'w', ZIP_DEFLATED, allowZip64=True)
+  File "C:\Users\Paula Perf\AppData\Local\Programs\Python\Python314\Lib\zipfile\__init__.py", line 1454, in __init__
+    self.fp = io.open(file, filemode)
+              ~~~~~~~^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\Viking Software BETA\\exportaciones\\reporte_ventas_2026-10-08_a_2026-10-08.xlsx'
+2026-10-08 20:35:26,052 [ERROR] viking: Fallo al exportar reporte_ventas_2026-10-08_a_2026-10-08.xlsx
+Traceback (most recent call last):
+  File "C:\Viking Software BETA\viking\servicios.py", line 683, in exportar
+    wb.save(destino)
+    ~~~~~~~^^^^^^^^^
+  File "C:\Viking Software BETA\venv\Lib\site-packages\openpyxl\workbook\workbook.py", line 386, in save
+    save_workbook(self, filename)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Viking Software BETA\venv\Lib\site-packages\openpyxl\writer\excel.py", line 291, in save_workbook
+    archive = ZipFile(filename, 'w', ZIP_DEFLATED, allowZip64=True)
+  File "C:\Users\Paula Perf\AppData\Local\Programs\Python\Python314\Lib\zipfile\__init__.py", line 1454, in __init__
+    self.fp = io.open(file, filemode)
+              ~~~~~~~^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\Viking Software BETA\\exportaciones\\reporte_ventas_2026-10-08_a_2026-10-08.xlsx'
+2026-10-08 20:35:34,228 [INFO] viking: Reporte exportado: C:\Viking Software BETA\exportaciones\reporte_ventas_2026-10-08_a_2026-10-08.xlsx (1 ventas)
+2026-10-08 20:41:29,483 [INFO] viking: Tema de la interfaz: oscuro
+2026-10-08 20:41:29,691 [INFO] viking: ComboAutocompletable ignora opciones del ComboBox: button_color, dropdown_fg_color, dropdown_font, dropdown_text_color
+2026-10-08 20:43:37,064 [INFO] viking: Cierre de Viking Software BETA
+2026-10-08 20:48:45,583 [INFO] viking: Arranque de Viking Software BETA 0.5.0-beta
+2026-10-08 20:48:46,163 [INFO] viking: ComboAutocompletable ignora opciones del ComboBox: button_color, dropdown_fg_color, dropdown_font, dropdown_text_color
+2026-10-08 20:49:07,541 [INFO] viking: Cierre de Viking Software BETA
+2026-10-08 20:49:09,656 [INFO] viking: Arranque de Viking Software BETA 0.5.0-beta
+2026-10-08 20:49:10,213 [INFO] viking: ComboAutocompletable ignora opciones del ComboBox: button_color, dropdown_fg_color, dropdown_font, dropdown_text_color
+2026-10-08 20:49:11,521 [INFO] viking: Cierre de Viking Software BETA
+2026-10-09 00:32:21,828 [INFO] viking: Arranque de Viking Software BETA 0.5.0-beta
+2026-10-09 00:32:23,109 [INFO] viking: ComboAutocompletable ignora opciones del ComboBox: button_color, dropdown_fg_color, dropdown_font, dropdown_text_color
+2026-10-09 00:33:12,151 [INFO] viking: Tema de la interfaz: claro
+2026-10-09 00:33:12,260 [INFO] viking: ComboAutocompletable ignora opciones del ComboBox: button_color, dropdown_fg_color, dropdown_font, dropdown_text_color
+2026-10-09 00:33:57,098 [INFO] viking: Ítem 2 eliminado del catálogo
+2026-10-09 00:34:00,185 [INFO] viking: Ítem 1 eliminado del catálogo
+2026-10-09 00:34:03,208 [INFO] viking: Ítem 3 eliminado del catálogo
+2026-10-09 00:34:07,335 [INFO] viking: Ítem 4 eliminado del catálogo
+2026-10-09 00:34:17,608 [INFO] viking: Ítem 5 eliminado del catálogo
+2026-10-09 00:34:20,265 [INFO] viking: Ítem 6 eliminado del catálogo
+2026-10-09 00:34:23,344 [INFO] viking: Ítem 7 eliminado del catálogo
+2026-10-09 00:40:05,703 [INFO] viking: Tema de la interfaz: oscuro
+2026-10-09 00:40:05,818 [INFO] viking: ComboAutocompletable ignora opciones del ComboBox: button_color, dropdown_fg_color, dropdown_font, dropdown_text_color
+2026-10-09 00:42:06,697 [INFO] viking: Tema de la interfaz: claro
+2026-10-09 00:42:06,836 [INFO] viking: ComboAutocompletable ignora opciones del ComboBox: button_color, dropdown_fg_color, dropdown_font, dropdown_text_color
+2026-10-09 00:44:10,135 [INFO] viking: Tema de la interfaz: oscuro
+2026-10-09 00:44:10,235 [INFO] viking: ComboAutocompletable ignora opciones del ComboBox: button_color, dropdown_fg_color, dropdown_font, dropdown_text_color
+2026-10-09 00:44:19,402 [INFO] viking: Tema de la interfaz: claro
+2026-10-09 00:44:19,543 [INFO] viking: ComboAutocompletable ignora opciones del ComboBox: button_color, dropdown_fg_color, dropdown_font, dropdown_text_color
+2026-10-09 00:45:07,779 [INFO] viking: Tema de la interfaz: oscuro
+2026-10-09 00:45:07,896 [INFO] viking: ComboAutocompletable ignora opciones del ComboBox: button_color, dropdown_fg_color, dropdown_font, dropdown_text_color
+2026-10-09 00:47:53,706 [INFO] viking: Cierre de Viking Software BETA
+2026-10-11 12:54:38,688 [INFO] viking: Arranque de Viking Software BETA 0.5.0-beta
+2026-10-11 12:54:42,045 [INFO] viking: ComboAutocompletable ignora opciones del ComboBox: button_color, dropdown_fg_color, dropdown_font, dropdown_text_color
+2026-10-11 12:55:01,268 [INFO] viking: Venta registrada: DESARROLLO PROGRAMA PARA BARBERIA x1 = 50000.00 (barbero_id=2, cliente_id=None, EFECTIVO, 3492b676-4ddd-460b-859b-596492bc4d00)
+2026-10-11 12:55:16,170 [INFO] viking: Reporte exportado: C:\Viking Software BETA\exportaciones\reporte_ventas_2026-10-01_a_2026-10-11.xlsx (2 ventas)
+2026-10-11 12:57:02,042 [INFO] viking: Venta 4 ELIMINADA desde Administración
+2026-10-11 12:57:34,886 [INFO] viking: Tema de la interfaz: claro
+2026-10-11 12:57:35,112 [INFO] viking: ComboAutocompletable ignora opciones del ComboBox: button_color, dropdown_fg_color, dropdown_font, dropdown_text_color
+2026-10-11 18:54:11,554 [INFO] viking: Arranque de Viking Software BETA 0.5.0-beta
+2026-10-11 18:54:13,804 [INFO] viking: ComboAutocompletable ignora opciones del ComboBox: button_color, dropdown_fg_color, dropdown_font, dropdown_text_color
+2026-10-11 18:54:22,486 [INFO] viking: Tema de la interfaz: oscuro
+2026-10-11 18:54:22,636 [INFO] viking: ComboAutocompletable ignora opciones del ComboBox: button_color, dropdown_fg_color, dropdown_font, dropdown_text_color
+2026-10-11 19:09:16,088 [INFO] viking: Tema de la interfaz: claro
+2026-10-11 19:09:16,281 [INFO] viking: ComboAutocompletable ignora opciones del ComboBox: button_color, dropdown_fg_color, dropdown_font, dropdown_text_color
+2026-10-11 19:09:52,512 [INFO] viking: Cierre de Viking Software BETA
+2026-10-12 11:12:25,306 [INFO] viking: Arranque de Viking Software BETA 0.5.0-beta
+2026-10-12 11:12:26,806 [INFO] viking: ComboAutocompletable ignora opciones del ComboBox: button_color, dropdown_fg_color, dropdown_font, dropdown_text_color
+2026-10-12 11:12:32,868 [INFO] viking: Tema de la interfaz: oscuro
+2026-10-12 11:12:32,964 [INFO] viking: ComboAutocompletable ignora opciones del ComboBox: button_color, dropdown_fg_color, dropdown_font, dropdown_text_color
+2026-10-12 11:12:35,883 [INFO] viking: Tema de la interfaz: claro
+2026-10-12 11:12:35,973 [INFO] viking: ComboAutocompletable ignora opciones del ComboBox: button_color, dropdown_fg_color, dropdown_font, dropdown_text_color
+2026-10-12 11:14:05,708 [INFO] viking: Cierre de Viking Software BETA
+2026-10-12 11:14:50,324 [INFO] viking: Arranque de Viking Software BETA 0.5.0-beta
+2026-10-12 11:14:50,813 [INFO] viking: ComboAutocompletable ignora opciones del ComboBox: button_color, dropdown_fg_color, dropdown_font, dropdown_text_color
+2026-10-12 11:15:10,013 [INFO] viking: Tema de la interfaz: oscuro
+2026-10-12 11:15:10,177 [INFO] viking: ComboAutocompletable ignora opciones del ComboBox: button_color, dropdown_fg_color, dropdown_font, dropdown_text_color
+2026-10-12 11:15:18,037 [INFO] viking: Cierre de Viking Software BETA
+2026-10-12 21:40:11,875 [INFO] viking: Arranque de Viking Software BETA 0.5.0-beta
+2026-10-12 21:40:14,203 [INFO] viking: ComboAutocompletable ignora opciones del ComboBox: button_color, dropdown_fg_color, dropdown_font, dropdown_text_color
+2026-10-12 21:40:38,405 [INFO] viking: Tema de la interfaz: claro
+2026-10-12 21:40:38,591 [INFO] viking: ComboAutocompletable ignora opciones del ComboBox: button_color, dropdown_fg_color, dropdown_font, dropdown_text_color
+2026-10-12 21:46:24,583 [INFO] viking: Cierre de Viking Software BETA
+2026-10-12 22:06:51,388 [INFO] viking: Arranque de Viking Software BETA 0.5.0-beta
+2026-10-12 22:06:51,974 [INFO] viking: ComboAutocompletable ignora opciones del ComboBox: button_color, dropdown_fg_color, dropdown_font, dropdown_text_color
+2026-10-12 22:07:34,627 [INFO] viking: Cierre de Viking Software BETA

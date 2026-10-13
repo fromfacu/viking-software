@@ -1,0 +1,7 @@
+# requirements.txt — Viking Software BETA · Etapa 1
+# Versiones mínimas: pip elige la más nueva compatible con tu Python (3.12+).
+customtkinter>=5.2.2   # Interfaz de escritorio moderna sobre Tkinter
+openpyxl>=3.1.5        # Generación de reportes Excel con formato institucional
+Pillow>=10.4.0         # Logo en la interfaz y en los reportes
+# SQLite 3 y Tkinter base NO se instalan aparte: viajan dentro del propio
+# instalador de Python para Windows (cualquier versión 3.12 o superior).
